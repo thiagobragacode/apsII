@@ -1,0 +1,4 @@
+Extraí a lógica de cálculo do valor do aluguel para dentro da classe Fita, criando o método calcularValor(int diasAlugada). Isso remove o switch da classe Cliente, deixando o código mais coeso e seguindo melhor o 
+princípio de responsabilidade única.
+
+Extraí a lógica de cálculo dos pontos de aluguel frequente para a classe Aluguel, com o método calcularPontos(). Assim, a regra fica encapsulada onde faz mais sentido, evitando que Cliente acumule responsabilidades.
